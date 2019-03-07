@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"GBanpanel"
+	"version"			"1.0"
+	"up_date"			"07/03/2019"
+	"author_name"		"Livaco"
+	"author_email"		"livacobussness@outlook.com"
+	"author_url"		"http://www.livaco.tk/"
+	"info"				"Basic ban panel for Garry's Mod."
+	"override"			"0"
+}

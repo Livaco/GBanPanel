@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+  background-color: #5b6c75;
+  height: 80%;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.login-container {
+  margin: 12.5%;
+  margin-top: 15%;
+  width: 75%;
+  background-color: #607d8b;
+  border-bottom: 15px solid #465b66;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  text-align: Center;
+}
+
+.login-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: White;
+}
+
+.login-button {
+  background-color: #7495a5;
+  border: none;
+  border-bottom: 5px solid #465b66;
+  margin-top: 2%;
+  width: 25%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: White;
+}
+
+.login-button:hover {
+  background-color: #859eaa;
+}
+
+
+.panel-container {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1.9%;
+  width: 92%;
+  background-color: #607d8b;
+  border-bottom: 15px solid #465b66;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  text-align: Center;
+}
+
+.panel-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: White;
+}
+
+#bans {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bans td, #bans th {
+    border: 1px solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#bans th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    color: white;
+}
+
+.page-button {
+  background-color: #7495a5;
+  border: none;
+  border-bottom: 5px solid #465b66;
+  margin-top: 2%;
+  width: 2%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: White;
+}
+
+.page-button:hover {
+  background-color: #859eaa;
+}
+
+#user th {
+  width: 50%;
+}
+#admin th {
+  width: 10%;
+}
+#reason th {
+  width: 10%;
+}
+#time th {
+  width: 10%;
+}
+#unban th {
+  width: 10%;
+}
+#expired th {
+  width: 10%;
+}
