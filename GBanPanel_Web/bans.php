@@ -112,12 +112,12 @@
                     <th id="user"><?php echo $row['User']; ?> </th>
                     <th id="admin"><?php echo $row['Admin']; ?> </th>
                     <th id="reason"><?php echo $row['Reason']; ?> </th>
-                    <th id="time"><?php echo relativeTime($row['Time']); ?> </th>
+                    <th id="time"><?php echo date($datedisplay, $row['Time']); ?> </th>
                     <?php
                     if($row['Unban'] == 0) {
                       $unbantime = "Never";
                     } else {
-                      $unbantime = relativeTime($row['Unban']);
+                      $unbantime = date($datedisplay, $row['Unban']);
                     }
                     ?>
                     <th id='unban'><?php echo($unbantime)?></th>

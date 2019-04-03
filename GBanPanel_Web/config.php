@@ -10,6 +10,9 @@
   // If access should be restricted to the panel.
   $restrictaccess = false;
 
+  // The way the Dates are displayed. This is the american way by default.
+  $datedisplay = "m/d/Y H:i:s";
+
   // SteamID64s allowed to use the Ban Panel if above is true.
   $steamidallowed = array("76561198121018313", "11111111111111111");
 
