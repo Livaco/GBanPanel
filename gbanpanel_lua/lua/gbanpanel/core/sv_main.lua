@@ -4,7 +4,7 @@ hook.Add("PlayerConnect", "gbanpanel_versioncheck", function()
   if(RanCheck == true) then return end
   GBanPanel.Print("Running version check!")
   // Post request.
-  http.Post("https://livacoweb.000webhostapp.com/libaries/versions/gbanpanel.php", {RunningVar = "1.0"}, function(result)
+  http.Post("https://livacoweb.000webhostapp.com/libaries/versions/gbanpanel.php", {RunningVar = "1.1"}, function(result)
     GBanPanel.Print(result)
   end, function(fail)
     GBanPanel.Print("Error: " .. fail)
